@@ -1,6 +1,6 @@
 (function() {
   module.exports = {
-    apkreader: require('./lib/apkreader'),
+    ApkReader: require('./lib/apkreader'),
     BinaryXmlParser: require('./lib/apkreader/parser/binaryxml'),
     ManifestParser: require('./lib/apkreader/parser/manifest')
   }
